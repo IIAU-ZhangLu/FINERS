@@ -240,9 +240,10 @@
 	    padding: 20px;
         }
 		.citation-content {
-	    max-width:1200px;
+	    max-width:1000px;
 	    margin:0 auto;
 	    padding: 20px;
+		line-height:1.5;
         }
 		.citation-content h2 {
 	    font-wight:700;
@@ -265,7 +266,8 @@
 	    padding:20px;
 	    margin:0 auto;
 	    font-size:18px;
-	    max-width:1200px;
+	    max-width:1000px;
+		text-align:left;
 	}
 
     /* 上方效果图轮播容器 */
@@ -405,13 +407,13 @@
         <div class="abstract-bg2">
 	  <div class="citation-content">
             <h2>Citation</h2>
-            <pre class="citation"     >
-	@article{zhang2025,
-        title={Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning},
-        author={Zhang, Lu and Yu, Jiazuo and Xiong, Haomiao and Hu, Ping and Zhuge, Yunzhi and Lu, Huchuan and He, You},
-        year={2025}
-	}
-	    </pre>
+            <p class="citation">
+				@article{zhang2025,<br>
+        		title={Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning},<br>
+        		author={Zhang, Lu and Yu, Jiazuo and Xiong, Haomiao and Hu, Ping and Zhuge, Yunzhi and Lu, Huchuan and He, You},<br>
+        		year={2025}<br>
+				}
+	    	</p>
 	  </div>
         </div>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -461,6 +463,7 @@
 </body>
 
 </html>
+
 
 
 
